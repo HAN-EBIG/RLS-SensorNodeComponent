@@ -1,2 +1,2 @@
-# RLS-SensorNodeComponent
-Contains C++ code which runs on the hardware component sensornode from the network.
+# RLS-SensorNodeComponent Radiator Node
+Code to run on sensor node, which is attached to radiators
