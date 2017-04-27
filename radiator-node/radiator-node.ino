@@ -3,7 +3,6 @@
 
 // Enable and select radio type attached
 #define MY_RADIO_NRF24
-//#define MY_RADIO_RFM69
 
 #define MY_NODE_ID 50
 #define CHILD_ID_TEMP_IN 10
@@ -45,7 +44,7 @@ void setup()
 
 void presentation() {
   // Send the sketch version information to the gateway and Controller
-  sendSketchInfo("Temperature Sensor", "1.1");
+  sendSketchInfo("Radiator Node", "1.0");
 
   // Fetch the number of attached temperature sensors  
   numSensors = sensors.getDeviceCount();
